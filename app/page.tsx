@@ -1,3 +1,9 @@
+import GridLayoutOne from "@/Library/gridLayoutOne";
+
 export default function Home() {
-  return <main className="text-blue-500">Testing Tailwind</main>;
+  return (
+    <div className="min-h-screen flex items-center bg-purple-500">
+      <GridLayoutOne />
+    </div>
+  );
 }
