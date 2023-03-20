@@ -1,4 +1,4 @@
-import GridLayoutOne from "@/Library/gridLayoutOne";
+import GridLayoutOne from "@/Library/GridLayoutOne";
 
 export default function Home() {
   return (
