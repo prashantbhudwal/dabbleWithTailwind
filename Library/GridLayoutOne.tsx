@@ -2,10 +2,10 @@ export default function GridLayoutOne() {
   return (
     <div className="mx-auto max-w-4xl flex-1 p-10">
       <ul className="grid grid-cols-12 grid-rows-6 gap-3">
-        <li className="rounded-lg bg-white shadow-xl">
+        <li className="col-span-3 col-start-1 row-span-4 row-start-2 rounded-lg bg-white shadow-xl ">
           <div className="h-24 p-3 text-center">Sidebar</div>
         </li>
-        <li className="col-span-full row-span-1 row-start-1 h-16 rounded-lg bg-white shadow-xl">
+        <li className="col-span-full row-span-1 row-start-1 rounded-lg bg-white shadow-xl">
           <div className="h-24 p-3 text-center"> Header</div>
         </li>
         <li className="col-span-full row-span-1 row-start-6 rounded-lg bg-white shadow-xl">
