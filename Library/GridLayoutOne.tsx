@@ -3,7 +3,12 @@ export default function GridLayoutOne() {
     <div className="mx-auto flex-1 p-10">
       <ul className="grid grid-cols-12 grid-rows-6 gap-3">
         <li className="col-span-3 col-start-1 row-span-4 row-start-2 rounded-lg bg-white shadow-xl ">
-          <div className="h-24 p-3 text-center">Left Sidebar</div>
+          <div className="max-h-screen overflow-y-scroll p-3 text-center">
+            Left Sidebar
+            {Array.from({ length: 100 }, (_, index) => (
+              <div key={index + 1}>{index + 1}</div>
+            ))}
+          </div>
         </li>
         <li className="col-span-full row-span-1 row-start-1 rounded-lg bg-white shadow-xl">
           <div className="h-24 p-3 text-center"> Header</div>
