@@ -3,7 +3,7 @@ export default function GridLayoutOne() {
     <div className="mx-auto flex-1 p-10">
       <ul className="grid grid-cols-12 grid-rows-6 gap-3">
         <li className="col-span-3 col-start-1 row-span-4 row-start-2 rounded-lg bg-white shadow-xl ">
-          <div className="h-24 p-3 text-center">Sidebar</div>
+          <div className="h-24 p-3 text-center">Left Sidebar</div>
         </li>
         <li className="col-span-full row-span-1 row-start-1 rounded-lg bg-white shadow-xl">
           <div className="h-24 p-3 text-center"> Header</div>
@@ -32,8 +32,8 @@ export default function GridLayoutOne() {
         <li className="rounded-lg bg-white shadow-xl">
           <div className="h-24 p-3 text-center">Chat with us</div>
         </li>
-        <li className="rounded-lg bg-white shadow-xl">
-          <div className="h-24 p-3 text-center">Another Section</div>
+        <li className="col-span-2 col-start-11 row-span-4 row-start-2 rounded-lg bg-white shadow-xl ">
+          <div className="h-24 p-3 text-center">Right Sidebar</div>
         </li>
         <li className="rounded-lg bg-white shadow-xl">
           <div className="h-24 p-3 text-center">Another Section</div>
